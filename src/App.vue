@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView, useRoute } from 'vue-router';
+import { RouterLink, RouterView } from 'vue-router';
 import { session, logout, loadSessionData } from '@/session-manager.ts';
 import { onMounted } from 'vue';
 import settings from "@/settings.json";
